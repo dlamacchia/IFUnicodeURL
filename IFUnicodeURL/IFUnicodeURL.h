@@ -2,7 +2,7 @@
 //  IFUnicodeURL.h
 //  IFUnicodeURL
 //
-#import <IFUnicodeURL/NSURL+IFUnicodeURL.h>
+#import "NSURL+IFUnicodeURL.h"
 
 @import Foundation;
 
