@@ -81,6 +81,7 @@
 		D00139431FB7F17E00514E07 /* NSURL+IFUnicodeURLTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+IFUnicodeURLTest.m"; sourceTree = "<group>"; };
 		D00139461FB7F1B200514E07 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D001394D1FB7F31400514E07 /* IFUnicodeURLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IFUnicodeURLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D00139591FB7F4F700514E07 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = Resources/module.modulemap; sourceTree = "<group>"; };
 		D001395A1FB7F4F700514E07 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = "<group>"; };
 		D001395C1FB7F51000514E07 /* IFUnicodeURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IFUnicodeURL.h; path = IFUnicodeURL/IFUnicodeURL.h; sourceTree = "<group>"; };
 		EE83867B13897644005E0FFD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -139,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				D001395A1FB7F4F700514E07 /* Info.plist */,
+				D00139591FB7F4F700514E07 /* module.modulemap */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -284,7 +286,7 @@
 					};
 					D001394C1FB7F31400514E07 = {
 						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
